@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Última actualización en diciembre de 2022
+
+TÉRMINOS DE LICENCIA DEL SOFTWARE DE MICROSOFT
+
+SISTEMA OPERATIVO WINDOWS
+
+SI VIVE EN (O, SI ES UNA EMPRESA, SI SU DOMICILIO COMERCIAL PRINCIPAL SE ENCUENTRA 
+EN) LOS ESTADOS UNIDOS, LEA LA CLÁUSULA DE ARBITRAJE VINCULANTE Y LA RENUNCIA 
+A LA ACCIÓN DE CLASE DE LA SECCIÓN 10, RELATIVA A LA RESOLUCIÓN DE CONFLICTOS.
+
+Gracias por elegir Microsoft.
+Según la forma en que obtenga el software de Microsoft, el presente es un contrato de licencia entre (i) usted y el fabricante del dispositivo o el instalador del software que distribuye el software en su dispositivo; o (ii) usted y Microsoft Corporation (o, según donde resida o, en el caso de una empresa, según donde se encuentre su domicilio comercial principal, una de sus filiales) si adquirió el software a un distribuidor. En el caso de dispositivos fabricados por Microsoft o una de sus filiales, Microsoft es el fabricante del dispositivo. En el caso de haber comprado el software directamente a Microsoft, Microsoft es el distribuidor.
+En el presente contrato se describen sus derechos y las condiciones de uso del software de Windows. Debe revisar el contrato completo, incluidos los términos de licencia complementarios que acompañan al software y cualquier término vinculado, ya que todos los términos son importantes y en su conjunto conforman este contrato que se aplica a su caso. Puede revisar los términos vinculados si pega la dirección del vínculo (aka.ms/) en la ventana de un explorador.
+Al suscribir el presente contrato o utilizar el software, usted acepta estos términos y consiente la transmisión de determinada información durante la activación y durante el uso que haga del software conforme a la declaración de privacidad descrita en la Sección 3. Si no acepta y respeta estos términos, no podrá utilizar el software ni sus funciones. Puede ponerse en contacto con el fabricante o el instalador del dispositivo, o el distribuidor si adquirió el software de forma directa, para determinar la directiva de devolución y devolver el software o el dispositivo a cambio de un reembolso o un crédito en virtud de dicha directiva. Debe cumplir con esa directiva, que podría exigirle la devolución del software con el dispositivo completo en el que se instaló a cambio de un reembolso o un crédito, si corresponde.
+1. Información general.
+a. Aplicabilidad. Este contrato se aplica al software de Windows preinstalado en el dispositivo o comprado a un distribuidor y que usted haya instalado, el soporte físico en el que recibió el software (si lo hubiera), cualquier fuente, icono, imagen o archivo de sonido incluidos con el software, así como también cualquier actualización, complemento o servicio de Microsoft para el software, a menos que estos vayan acompañados de otros términos. También se aplica a las aplicaciones de Windows desarrolladas por Microsoft que proporcionan funcionalidades incluidas con Windows y que forman parte de él, como el correo electrónico, los contactos, la música y las fotos. Si este contrato contiene términos relacionados con una característica o un servicio no disponible en el dispositivo, no se aplican tales términos.
+b. Términos adicionales. Es posible que se apliquen términos adicionales de Microsoft y de terceros al uso de determinadas características, aplicaciones y servicios, en función de las capacidades de su dispositivo, de la forma en que está configurado y del uso que usted le da. Le rogamos que los lea atentamente.
+(i) Algunas aplicaciones de Windows proporcionan un punto de acceso a los servicios en línea (o se basan en estos), y a veces el uso de esos servicios se rige por términos y directivas de privacidad independientes, como el Contrato de Servicios de Microsoft que se encuentra en (aka.ms/msa). Puede ver estos términos y directivas en los términos de uso del servicio o en la configuración de la aplicación, según corresponda. Es posible que los servicios no se encuentren disponibles en todas las regiones.
+(ii) Microsoft, el fabricante o el instalador puede incluir aplicaciones adicionales, que estarán sujetas a términos de licencia y directivas de privacidad independientes.
+(iii) El software incluye Adobe Flash Player, que se licencia en virtud de los términos de Adobe Systems Incorporated. Estos se encuentran en (aka.ms/adobeflash). Adobe y Flash son marcas o marcas registradas de Adobe Systems Incorporated en Estados Unidos y/u otros países.
+(iv) El software puede incluir programas de terceros cuya licencia se le otorga en virtud del presente contrato o de sus propios términos. Los términos de licencia, las notificaciones y los reconocimientos de los programas de terceros, si los hubiera, se pueden ver en (aka.ms/thirdpartynotices).
+(v) En la medida en que se incluyan con Windows, Word, Excel, PowerPoint y OneNote cuentan con licencia para su uso personal y no comercial, a menos que tenga derechos de uso comercial en virtud de un contrato independiente.
+2. Instalación y Derechos de uso.
+a. Licencia. El software se cede bajo licencia y no es objeto de venta. En virtud del presente contrato y siempre y cuando cumpla con todos los términos del mismo, le otorgamos el derecho de instalar y ejecutar una instancia del software en su dispositivo (el dispositivo con licencia), para que lo utilice una persona a la vez. Si utiliza software de Microsoft o de orígenes autorizados para actualizar software que no es original, no convertirá su versión inicial ni la versión actualizada en original y, en ese caso, no dispondrá de una licencia para utilizar el software.
+b.Dispositivo. En este contrato, “dispositivo” se refiere a un sistema hardware (ya sea físico o virtual) con un dispositivo de almacenamiento interno capaz de ejecutar el software. Una partición o división (blade) de hardware se considera un dispositivo.
+c.Restricciones. El fabricante o el instalador y Microsoft se reservan todos los derechos (como los posibles derechos en virtud de determinadas leyes de propiedad intelectual e industrial) no concedidos expresamente en este contrato. Por ejemplo, esta licencia no le concede ningún derecho con respecto a las siguientes operaciones; específicamente, usted no puede:
+(i) utilizar o virtualizar las características del software por separado;
+(ii) publicar, copiar (excepto en el caso de la copia de seguridad permitida), alquilar, arrendar o dar en préstamo el software;
+(iii) transmitir el software (excepto en los casos permitidos por este contrato);
+(iv) eludir las restricciones o limitaciones técnicas del software;
+(v) utilizar el software como software de servidor (para hospedaje comercial), poner el software a disposición de varios usuarios mediante una red para que lo utilicen de forma simultánea, instalar el software en un servidor y permitir que los usuarios accedan a él de forma remota ni instalar el software en un dispositivo para uso exclusivo de usuarios remotos;
+(vi) utilizar técnicas de ingeniería inversa, descompilar ni desensamblar el software o intentar hacerlo, excepto y solo en la medida en que la restricción anterior (a) esté permitida por la legislación aplicable; (b) este permitida por los términos de licencia que rigen el uso de componentes de código abierto que pueden incluirse con el software; o (c) sea necesaria para depurar cambios en cualquier biblioteca licenciada en virtud de la licencia GNU Lesser General Public License que se incluye y vincula mediante el software; y
+(vii) al utilizar características basadas en Internet, no podrá utilizarlas de forma tal que pueda interferir con el uso que otras personas hagan de ellas o tratar de utilizar o acceder a algún servicio, dato, cuenta o red sin autorización.
+d. Escenarios de varios usos.
+(i) Varias versiones. Si al adquirir el software, se proporciona con varias versiones (por ejemplo, de 32 bits y 64 bits), solo puede instalar y activar una de estas versiones a la vez.
+(ii) Varias conexiones o conexiones agrupadas. El hardware o software que utiliza para realizar conexiones agrupadas o multiplexadas, o reducir el número de dispositivos o usuarios que obtienen acceso o utilizan el software, no reducen el número de licencias que necesita. Solo puede utilizar dicho hardware o software si tiene una licencia para cada instancia del software que utiliza.
+(iii) Conexiones del dispositivo. Puede permitir que un máximo de 20 dispositivos accedan al software instalado en el dispositivo bajo licencia para utilizar las siguientes características del software: servicios de archivo, servicios de impresión, Internet Information Services y servicios de telefonía y conexión compartida a Internet en el dispositivo con licencia. Puede autorizar el acceso de cualquier número de dispositivos al software del dispositivo bajo licencia para sincronizar los datos entre dispositivos. Sin embargo, lo que se expone en esta sección no implica que usted tenga derecho a instalar el software o a utilizar la función principal del software (con la salvedad de las características indicadas en esta sección) en alguno de estos otros dispositivos.
+(iv) Uso en un entorno virtualizado. Esta licencia le autoriza a instalar una sola instancia del software para su uso en un solo dispositivo, que puede ser físico o virtual. Si desea utilizar el software en más de un dispositivo virtual, debe obtener una licencia independiente para cada instancia.
+(v) Acceso remoto. Una vez cada 90 días puede designar como Usuario con licencia a un usuario único que utilice físicamente el dispositivo con licencia. El usuario con licencia puede acceder al dispositivo bajo licencia desde otro dispositivo mediante el uso de tecnologías de acceso remoto. Otros usuarios, en momentos diferentes, pueden acceder al dispositivo con licencia desde otro dispositivo mediante tecnologías de acceso remoto, pero solo en dispositivos que tengan una licencia independiente para ejecutar la misma edición de este software o posterior.
+(vi) Asistencia remota. Puede utilizar tecnologías de asistencia remota para compartir una sesión activa sin necesidad de obtener ninguna licencia adicional para el software. Asistencia remota autoriza a un usuario a conectarse directamente con el equipo de otro usuario, con frecuencia para solucionar problemas.
+e.Copia de seguridad. Puede crear una única copia del software para fines de copia de seguridad y también puede utilizar dicha copia de seguridad para transmitir el software si lo obtuvo como software independiente, tal como se describe en la Sección 4, a continuación.
+3. Privacidad; Consentimiento al Uso de Datos. Su privacidad es importante para nosotros. Algunas características del software envían o reciben información cuando se las utiliza. Muchas de estas características se pueden desactivar en la interfaz de usuario o se puede optar por no utilizarlas. Al aceptar el presente contrato o utilizar el software, usted acepta que Microsoft puede recopilar, utilizar y revelar la información, tal como se describe en la Declaración de Privacidad de Microsoft disponible en (aka.ms/privacy) y según se pudiera describir en la interfaz de usuario asociada a las características del software.
+4. Transmisión. Las disposiciones de esta sección no se aplican si obtuvo el software como consumidor en Alemania o en cualquiera de los países enumerados en este sitio (aka.ms/transfer), en cuyo caso toda transmisión del software a un tercero, además del derecho para utilizarlo, debe cumplir con la legislación aplicable.
+a. Software preinstalado en el dispositivo. Si adquirió el software preinstalado en un dispositivo (y también si realizó una actualización desde el software preinstalado en un dispositivo), puede transmitir directamente a otro usuario la licencia para utilizar el software, pero solo con el dispositivo licenciado. La transmisión debe incluir el software y, si se proporciona con el dispositivo, una etiqueta auténtica de Windows que incluya la clave del producto. Antes de efectuar cualquier transmisión permitida, la otra parte deberá aceptar que los términos de este contrato se aplican a la transmisión y al uso del software.
+b. Software independiente. Si adquirió el software como software independiente (y también si realizó una actualización desde el software que adquirió como software independiente), puede transmitir el software a otro dispositivo que le pertenezca. También puede transmitir el software a un dispositivo que le pertenezca a otra persona si: (i) usted es el primer usuario licenciado del software y (ii) el nuevo usuario acepta los términos de este contrato. Puede utilizar la copia de seguridad que le autorizamos a realizar o el soporte físico incluido con el software para la transmisión del software. Cada vez que transmita el software a un dispositivo nuevo, debe quitarlo del equipo en el que se encontraba anteriormente. No puede transmitir el software para compartir licencias entre dispositivos.
+5. Software Autorizado y Activación. Se le autoriza a utilizar este software solo si dispone de la licencia correspondiente y el software se ha activado correctamente con una clave de producto original o mediante un método autorizado. Cuando se conecte a Internet mientras use el software, este se pondrá en contacto automáticamente con Microsoft o su filial para que la activación lo asocie con un dispositivo determinado. También puede activar el software manualmente por teléfono o a través de Internet. En ambos casos, se realizará la transmisión de determinada información y podrían aplicarse cargos por el servicio de Internet, telefonía o SMS. Durante la activación (o la reactivación que puede desencadenarse debido a cambios en los componentes del dispositivo), es posible que el software determine que la instancia instalada del software se ha falsificado, no tiene la debida licencia o incluye cambios no autorizados. En caso de error durante la activación, el software intentará repararse automáticamente mediante el reemplazo de cualquier software de Microsoft alterado con software de Microsoft original. Además, es posible que reciba recordatorios para obtener una licencia adecuada para el software. La activación correcta no significa que el software sea original o que cuente con la debida licencia. No debe omitir o sortear la activación. Para determinar si el software es original y si cuenta con la debida licencia, consulte (aka.ms/genuine). Ciertas actualizaciones, soporte técnico y otros servicios se podrían ofrecer únicamente a usuarios de software original de Microsoft.
+6. Actualizaciones. El softwarebusca periódicamente actualizaciones del sistema y de las aplicaciones y las descarga e instala de forma automática. Solamente puede obtener actualizaciones provenientes de Microsoft o de orígenes autorizados y es posible que Microsoft deba actualizar el sistema para proporcionarle tales actualizaciones. Al aceptar el presente contrato, usted se compromete a recibir este tipo de actualizaciones automáticas sin notificación adicional.
+7. Derechos de Cambio a una Versión Anterior. Si obtuvo el dispositivo de un fabricante o instalador con una versión Professional de Windows preinstalada, puede utilizar una versión Profesional de Windows 8.1 Pro o Windows 7, pero siempre y cuando Microsoft ofrezca soporte técnico para dicha versión anterior, tal como se establece en (aka.ms/windowslifecycle). El presente contrato se aplicará al uso que haga de las versiones anteriores. Si esta incluyese diferentes componentes, el uso que haga de dichos componentes se regirá por los términos correspondientes del contrato de la versión anterior. Ni el fabricante ni el instalador, ni Microsoft, están obligados a proporcionarle las versiones anteriores. Debe obtener la versión anterior por separado y podrían aplicarse cargos por ello. Puede reemplazar en cualquier momento una versión anterior con la versión que adquirió originalmente.
+8. Restricciones Geográficas y en Materia de Exportaciones. Si el uso del software está restringido a una región geográfica específica, puede activar el software solo en esa región. Al mismo tiempo debe cumplir todas las leyes y reglamentos, nacionales e internacionales, en materia de exportación que sean de aplicación al software, lo que incluye restricciones en cuanto a destino, usuarios finales y uso final. Para obtener más información sobre las restricciones geográficas y en materia de exportación, visite (aka.ms/georestrict) y (aka.ms/exporting).
+9. Soporte técnico y procedimientos de reembolso.
+a. Software preinstalado en un dispositivo. Para conocer las opciones del software en general, póngase en contacto con el fabricante o el instalador del dispositivo. Consulte el número de servicio de soporte técnico que se proporciona con el software. En el caso de las actualizaciones y los complementos obtenidos directamente de Microsoft, es posible que Microsoft proporcione servicios de soporte técnico limitado si el software cuenta con la debida licencia, tal como se describe en (aka.ms/mssupport). Si usted desea un reembolso, póngase en contacto con el fabricante o el instalador para determinar sus directivas de reembolso. Debe cumplir con tales directivas, que podrían exigirle que devuelva el software con todo el dispositivo en el que se instaló el software a cambio de un reembolso.
+b. Software adquirido a un distribuidor. Microsoft proporciona servicios de soporte técnico limitado para el software que cuenta con la debida licencia, tal como se describe en (aka.ms/mssupport). Si usted adquirió el software a un distribuidor y desea un reembolso pero no puede obtenerlo en el lugar donde lo adquirió, póngase en contacto con Microsoft para obtener información sobre sus directivas de reembolso. Consulte (aka.ms/msoffices) o, en Norteamérica, llame al (800) MICROSOFT o consulte (aka.ms/nareturns).
+10. Cláusula de Arbitraje Vinculante y Renuncia a la Acción de Grupo si Vive en (o, si es una Empresa, su Domicilio Comercial Principal se encuentra en) Estados Unidos.
+Esperamos nunca tener un conflicto, pero de ser así, usted y nosotros nos comprometemos a intentar resolverlo mediante una negociación informal durante un plazo de sesenta (60) días. Si el conflicto no se resolviese mediante dicha negociación, usted y nosotros aceptamos el arbitraje vinculante individual de la Asociación Americana de Arbitraje (“AAA”) conforme a la Ley Federal de Arbitraje (“FAA”) y acordamos no entablar una demanda en un tribunal ante un juez o un jurado. En su lugar, un árbitro neutral resolverá el conflicto y su decisión será final, excepto si se recurre al derecho limitado de apelación conforme a la Ley Federal de Arbitraje. No se permiten las acciones de grupo, los arbitrajes colectivos, las acciones realizadas por un abogado privado y otros procedimientos en los que una persona actúa en calidad de representante de un grupo de personas. Tampoco se permite combinar procedimientos individuales sin el consentimiento de todas las partes. “Nosotros”, “nuestro”, “nuestra” y “nos” incluye a Microsoft, el fabricante del dispositivo y el instalador del software.
+a.Conflictos amparados (todo excepto IP). El término “conflict” es lo más amplio posible. Incluye toda reclamación o controversia entre usted y el fabricante o el instalador, o entre usted y Microsoft, en relación con el software, su precio o el presente contrato, en virtud de cualquier fundamento jurídico que incluya contrato, garantía, responsabilidad extracontractual, estatuto o reglamento, excepto los conflictos relativos al cumplimiento o la validez de los derechos de propiedad intelectual e industrial suyos, de sus licenciantes, nuestros o de nuestros licenciantes.
+b.Envío por correo postal de unaNotificación de Conflicto primero. Si tiene un conflicto pero nuestros representantes del servicio de atención al cliente no pueden resolverlo, envíe una Notificación de Conflicto por correo postal al fabricante o instalador, ATTN: LEGAL DEPARTMENT. Si el conflicto es con Microsoft, envíela a Microsoft Corporation, ATTN: LCA ARBITRATION, One Microsoft Way, Redmond, WA 98052-6399. Indique su nombre, dirección postal, cómo contactarle, el problema y lo que desea. Encontrará un formulario en (aka.ms/disputeform). Procederemos del mismo modo en caso de tener un conflicto con usted. Después de sesenta (60) días tanto usted como nosotros podremos iniciar un arbitraje si el conflicto no se ha resuelto aún.
+c. Opción de tribunal para casos menores. En lugar de enviar por correo postal una Notificación de Conflicto, y si cumple con los requisitos del tribunal, usted puede iniciarnos una demanda en un tribunal para casos menores correspondiente a su región de residencia (o si se trata de una empresa, donde se encuentra su domicilio comercial principal) o en nuestro domicilio comercial principal, Condado de King, Washington, EE. UU. en caso de que el conflicto sea con Microsoft. Aunque no es su obligación, esperamos que envíe una Notificación de Conflicto y aguarde el plazo de sesenta (60) días para que podamos resolverlo antes de entablar una demanda en un tribunal para casos menores.
+d. Procedimiento de arbitraje. La Asociación Americana de Arbitraje (“AAA”) realizará cualquier arbitraje en virtud de sus Reglamentos de Arbitraje Comercial (o si usted es un individuo y utiliza el software para uso personal o doméstico o si el valor del conflicto es igual o inferior a 75.000 USD, sea usted o no un individuo o con independencia de cómo utilice el software, se realizará en virtud de sus Reglamentos de Arbitraje para el Consumidor). Para obtener más información, consulte (aka.ms/adr) o llame al 1-800-778-7879. Para iniciar un arbitraje, envíe el formulario disponible en (aka.ms/arbitration) a la AAA y envíe por correo una copia al fabricante o instalador (o a Microsoft si el conflicto es con Microsoft). En todo conflicto con un valor igual o inferior a 25.000 USD, cualquier audiencia será telefónica, a menos que el árbitro encuentre un motivo razonable para realizarla en persona. Toda audiencia en persona se llevará a cabo en la región donde usted reside (o si se trata de una empresa, donde se encuentra su domicilio comercial principal) o en nuestro domicilio comercial principal, Condado de King, Washington, EE. UU. si el conflicto es con Microsoft. La decisión es suya. El árbitro puede adjudicarle los mismos daños y perjuicios que le adjudicaría un tribunal. El árbitro puede asignar medidas cautelares o declaratorias solo a usted de forma individual para satisfacer su reclamación individual.
+
+GARANTÍA LIMITADA
+
+Microsoft garantiza que el software que disponga de su debida licencia funcionará sustancialmente según se describe en la documentación de Microsoft que acompaña al software. Esta garantía limitada no cubre los problemas que usted cause, que surjan porque no siguió las instrucciones o que estén causados por eventos más allá del control razonable de Microsoft. La garantía limitada comienza cuando el primer usuario adquiere el software y tiene un plazo de un (1) año. Cualquier complemento, actualización o sustitución del software que reciba de Microsoft durante ese año estará también cubierto, pero solo durante el tiempo que reste del periodo de un (1) año o treinta (30) días, lo que sea superior. La transmisión del software no extenderá la garantía limitada.
+
+
+PROCEDIMIENTOS DE LA GARANTÍA
+
+En el caso de un servicio o un reembolso, debe proporcionar una copia de la prueba de compra y cumplir con las políticas de devolución de Microsoft, que pueden exigirle que desinstale el software y que lo devuelva a Microsoft o que devuelva el software con todo el dispositivo de Microsoft en el que se instaló el software; la etiqueta del certificado de autenticidad con la clave del producto (si esta se suministró con el dispositivo) debe permanecer adherida.</value>
+  </data>
+</root>

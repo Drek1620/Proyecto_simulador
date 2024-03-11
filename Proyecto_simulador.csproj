@@ -1,0 +1,1075 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DA614F5-B0C9-4C55-A933-18F3A364C427}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyecto_simulador</RootNamespace>
+    <AssemblyName>Proyecto_simulador</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>F:\Practica_1\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3ACA1A7E69F1D3F6CBF75CF6B1F55AE197EBFBD3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Proyecto_simulador_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acerca.Designer.cs">
+      <DependentUpon>Acerca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cerrar.cs" />
+    <None Include="Fonts\Ubuntu-M.ttf" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RJProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RJRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RJTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RJTextBox.Designer.cs" />
+    <Compile Include="RJTextBox1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RJTextBox.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Des_Ubuntu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Des_Ubuntu.Designer.cs">
+      <DependentUpon>Des_Ubuntu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Prueba.Designer.cs">
+      <DependentUpon>Prueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_1.Designer.cs">
+      <DependentUpon>Ubuntu_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_10.Designer.cs">
+      <DependentUpon>Ubuntu_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_11.Designer.cs">
+      <DependentUpon>Ubuntu_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_2.Designer.cs">
+      <DependentUpon>Ubuntu_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_3.Designer.cs">
+      <DependentUpon>Ubuntu_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_4.Designer.cs">
+      <DependentUpon>Ubuntu_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_5.Designer.cs">
+      <DependentUpon>Ubuntu_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_6.Designer.cs">
+      <DependentUpon>Ubuntu_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_7.Designer.cs">
+      <DependentUpon>Ubuntu_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_8.Designer.cs">
+      <DependentUpon>Ubuntu_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_9.Designer.cs">
+      <DependentUpon>Ubuntu_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_Carga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ubuntu\Ubuntu_Carga.Designer.cs">
+      <DependentUpon>Ubuntu_Carga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla1.Designer.cs">
+      <DependentUpon>Pantalla1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla10.Designer.cs">
+      <DependentUpon>Pantalla10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla11.Designer.cs">
+      <DependentUpon>Pantalla11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla11_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla11_1.Designer.cs">
+      <DependentUpon>Pantalla11_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla12.Designer.cs">
+      <DependentUpon>Pantalla12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla13.Designer.cs">
+      <DependentUpon>Pantalla13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla14.Designer.cs">
+      <DependentUpon>Pantalla14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla15.Designer.cs">
+      <DependentUpon>Pantalla15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla16.Designer.cs">
+      <DependentUpon>Pantalla16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla17.Designer.cs">
+      <DependentUpon>Pantalla17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla18.Designer.cs">
+      <DependentUpon>Pantalla18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla19.Designer.cs">
+      <DependentUpon>Pantalla19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla2.Designer.cs">
+      <DependentUpon>Pantalla2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla20.Designer.cs">
+      <DependentUpon>Pantalla20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla21.Designer.cs">
+      <DependentUpon>Pantalla21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla3.Designer.cs">
+      <DependentUpon>Pantalla3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla4.Designer.cs">
+      <DependentUpon>Pantalla4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla5.Designer.cs">
+      <DependentUpon>Pantalla5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla6.Designer.cs">
+      <DependentUpon>Pantalla6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla7.Designer.cs">
+      <DependentUpon>Pantalla7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla7_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla7_1.Designer.cs">
+      <DependentUpon>Pantalla7_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla7_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla7_2.Designer.cs">
+      <DependentUpon>Pantalla7_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla8.Designer.cs">
+      <DependentUpon>Pantalla8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla9.Designer.cs">
+      <DependentUpon>Pantalla9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\PantallaWindows_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\PantallaWindows_10.Designer.cs">
+      <DependentUpon>PantallaWindows_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla_Carga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_10\Pantalla_Carga.Designer.cs">
+      <DependentUpon>Pantalla_Carga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Descripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Descripcion.Designer.cs">
+      <DependentUpon>Descripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_1.Designer.cs">
+      <DependentUpon>Pantalla_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_10.Designer.cs">
+      <DependentUpon>Pantalla_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_11.Designer.cs">
+      <DependentUpon>Pantalla_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_12.Designer.cs">
+      <DependentUpon>Pantalla_12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_13.Designer.cs">
+      <DependentUpon>Pantalla_13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_14.Designer.cs">
+      <DependentUpon>Pantalla_14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_15.Designer.cs">
+      <DependentUpon>Pantalla_15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_16.Designer.cs">
+      <DependentUpon>Pantalla_16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_17.Designer.cs">
+      <DependentUpon>Pantalla_17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_17_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_17_1.Designer.cs">
+      <DependentUpon>Pantalla_17_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_18.Designer.cs">
+      <DependentUpon>Pantalla_18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_19.Designer.cs">
+      <DependentUpon>Pantalla_19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_2.Designer.cs">
+      <DependentUpon>Pantalla_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_20.Designer.cs">
+      <DependentUpon>Pantalla_20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_21.Designer.cs">
+      <DependentUpon>Pantalla_21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_22.Designer.cs">
+      <DependentUpon>Pantalla_22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_23.Designer.cs">
+      <DependentUpon>Pantalla_23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_24.Designer.cs">
+      <DependentUpon>Pantalla_24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_3.Designer.cs">
+      <DependentUpon>Pantalla_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_4.Designer.cs">
+      <DependentUpon>Pantalla_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_5.Designer.cs">
+      <DependentUpon>Pantalla_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_6.Designer.cs">
+      <DependentUpon>Pantalla_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_7.Designer.cs">
+      <DependentUpon>Pantalla_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_7_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_7_1.Designer.cs">
+      <DependentUpon>Pantalla_7_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_7_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_7_2.Designer.cs">
+      <DependentUpon>Pantalla_7_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_8.Designer.cs">
+      <DependentUpon>Pantalla_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows_11\Pantalla_9.Designer.cs">
+      <DependentUpon>Pantalla_9.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Acerca.resx">
+      <DependentUpon>Acerca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RJTextBox.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RJTextBox1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Des_Ubuntu.resx">
+      <DependentUpon>Des_Ubuntu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Prueba.resx">
+      <DependentUpon>Prueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_1.resx">
+      <DependentUpon>Ubuntu_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_10.resx">
+      <DependentUpon>Ubuntu_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_11.resx">
+      <DependentUpon>Ubuntu_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_2.resx">
+      <DependentUpon>Ubuntu_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_3.resx">
+      <DependentUpon>Ubuntu_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_4.resx">
+      <DependentUpon>Ubuntu_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_5.resx">
+      <DependentUpon>Ubuntu_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_6.resx">
+      <DependentUpon>Ubuntu_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_7.resx">
+      <DependentUpon>Ubuntu_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_8.resx">
+      <DependentUpon>Ubuntu_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_9.resx">
+      <DependentUpon>Ubuntu_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubuntu\Ubuntu_Carga.resx">
+      <DependentUpon>Ubuntu_Carga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla1.resx">
+      <DependentUpon>Pantalla1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla10.resx">
+      <DependentUpon>Pantalla10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla11.resx">
+      <DependentUpon>Pantalla11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla11_1.resx">
+      <DependentUpon>Pantalla11_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla12.resx">
+      <DependentUpon>Pantalla12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla13.resx">
+      <DependentUpon>Pantalla13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla14.resx">
+      <DependentUpon>Pantalla14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla15.resx">
+      <DependentUpon>Pantalla15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla16.resx">
+      <DependentUpon>Pantalla16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla17.resx">
+      <DependentUpon>Pantalla17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla18.resx">
+      <DependentUpon>Pantalla18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla19.resx">
+      <DependentUpon>Pantalla19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla2.resx">
+      <DependentUpon>Pantalla2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla20.resx">
+      <DependentUpon>Pantalla20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla21.resx">
+      <DependentUpon>Pantalla21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla3.resx">
+      <DependentUpon>Pantalla3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla4.resx">
+      <DependentUpon>Pantalla4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla5.resx">
+      <DependentUpon>Pantalla5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla6.resx">
+      <DependentUpon>Pantalla6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla7.resx">
+      <DependentUpon>Pantalla7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla7_1.resx">
+      <DependentUpon>Pantalla7_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla7_2.resx">
+      <DependentUpon>Pantalla7_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla8.resx">
+      <DependentUpon>Pantalla8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla9.resx">
+      <DependentUpon>Pantalla9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\PantallaWindows_10.resx">
+      <DependentUpon>PantallaWindows_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_10\Pantalla_Carga.resx">
+      <DependentUpon>Pantalla_Carga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Windows_11\Descripcion.resx">
+      <DependentUpon>Descripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_1.resx">
+      <DependentUpon>Pantalla_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_10.resx">
+      <DependentUpon>Pantalla_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_11.resx">
+      <DependentUpon>Pantalla_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_12.resx">
+      <DependentUpon>Pantalla_12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_13.resx">
+      <DependentUpon>Pantalla_13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_14.resx">
+      <DependentUpon>Pantalla_14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_15.resx">
+      <DependentUpon>Pantalla_15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_16.resx">
+      <DependentUpon>Pantalla_16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_17.resx">
+      <DependentUpon>Pantalla_17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_17_1.resx">
+      <DependentUpon>Pantalla_17_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_18.resx">
+      <DependentUpon>Pantalla_18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_19.resx">
+      <DependentUpon>Pantalla_19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_2.resx">
+      <DependentUpon>Pantalla_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_20.resx">
+      <DependentUpon>Pantalla_20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_21.resx">
+      <DependentUpon>Pantalla_21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_22.resx">
+      <DependentUpon>Pantalla_22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_23.resx">
+      <DependentUpon>Pantalla_23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_24.resx">
+      <DependentUpon>Pantalla_24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_3.resx">
+      <DependentUpon>Pantalla_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_4.resx">
+      <DependentUpon>Pantalla_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_5.resx">
+      <DependentUpon>Pantalla_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_6.resx">
+      <DependentUpon>Pantalla_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_7.resx">
+      <DependentUpon>Pantalla_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_7_1.resx">
+      <DependentUpon>Pantalla_7_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_7_2.resx">
+      <DependentUpon>Pantalla_7_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_8.resx">
+      <DependentUpon>Pantalla_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows_11\Pantalla_9.resx">
+      <DependentUpon>Pantalla_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Fonts\AvrileSans-Light.ttf" />
+    <None Include="Fonts\Segoe-UI-Variable-Static-Text-Light.ttf" />
+    <None Include="Fonts\Segoe-UI-Variable-Static-Text-Semibold.ttf" />
+    <None Include="Fonts\Segoe-UI-Variable-Static-Text-Semilight.ttf" />
+    <None Include="Fonts\Segoe-UI-Variable-Static-Text.ttf" />
+    <None Include="Fonts\SegoeUI-VF.ttf" />
+    <None Include="Fonts\Ubuntu-R.ttf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Proyecto_simulador_TemporaryKey.pfx" />
+    <None Include="Resources\Fondo_proyecto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirtualBox_Windows 10_31_03_2023_13_55_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_7.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_7.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_carga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows-loandig-cargando.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_10.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_10.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_11_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_12_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_12_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_12_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_11_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_windows10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_windows_1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_windows_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_1_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_2_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_3_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_4_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_5_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_6_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_7_1_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_7_2_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_7_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_8_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_9_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_10_1_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_10_2_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_10_3_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_11_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_12_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_13_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_14_1_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_14_2_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_14_3_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_14_4_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_15_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_16_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_17_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_18_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_19_1_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_19_2_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_20_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_21_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_22_1_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_22_2_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_23_1_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_23_2_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_24_2w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_24_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progress.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progress2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\progressring.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_17_1_w11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo_luz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_24_3_w11 .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_itsl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_5_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_10_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screen_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirtualBox_Ubuntu_09_04_2023_19_35_23 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
